@@ -1,0 +1,9 @@
+feature,input_change,predicted_change_minutes,status
+Last night's time in bed,+1 hour,6.443584729601316,Estimated from all completed pairs
+Today's scrolling,+30 minutes,-27.97687579988838,Estimated from all completed pairs
+Today's caffeine,+1 cup,-8.553624352036962,Estimated from all completed pairs
+Today's exercise,+30 minutes,12.686051416523844,Estimated from all completed pairs
+Mood 1: Very low,Compared with Neutral,,Not estimated: no examples of this mood
+Mood 2: Low,Compared with Neutral,6.858504045280211,5 training examples
+Mood 4: Good,Compared with Neutral,-7.331020690041699,22 training examples
+Mood 5: Very good,Compared with Neutral,-6.610154624597613,5 training examples

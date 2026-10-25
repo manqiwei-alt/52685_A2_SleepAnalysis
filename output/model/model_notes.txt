@@ -1,0 +1,15 @@
+Full-diary next-night model | 50 diary days; 49 completed pairs.
+Evaluation: 39 earlier pairs; 10 later pairs held out.
+Held-out wake dates: 2026-10-11 to 2026-10-20.
+Scored nights: 10; unseen training mood categories are excluded from all metrics.
+
+        model  scored_nights  mae_minutes  rmse_hours  r_squared
+      one_hot             10      40.1784      0.9280    -0.9941
+      numeric             10      39.1653      0.9075    -0.9068
+training_mean             10      32.9220      0.7238    -0.2131
+
+The one-hot model is the preselected primary model. Numeric mood is a comparison only.
+The final primary model is refitted on all completed pairs; dashboard filters never select training rows.
+Plot points are held-out predictions from the earlier-only fit, not fitted values from the full-data model.
+Coefficient estimates describe associations, not causal effects. A missing mood level has no estimated effect.
+The bundled diary contains computer-generated demonstration records, not collected personal observations.

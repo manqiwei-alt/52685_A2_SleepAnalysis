@@ -1,0 +1,42 @@
+{
+  "encoding": "one_hot",
+  "reference_mood": 3,
+  "feature_names": [
+    "numeric__time_in_bed_hours",
+    "numeric__doomscroll_minutes",
+    "numeric__caffeine_cups",
+    "numeric__exercise_minutes",
+    "mood__mood_1.0",
+    "mood__mood_2.0",
+    "mood__mood_4.0",
+    "mood__mood_5.0"
+  ],
+  "intercept_hours": 7.520076616175636,
+  "coefficients": {
+    "numeric__time_in_bed_hours": 0.1073930788266886,
+    "numeric__doomscroll_minutes": -0.015542708777715766,
+    "numeric__caffeine_cups": -0.14256040586728272,
+    "numeric__exercise_minutes": 0.007047806342513246,
+    "mood__mood_1.0": 1.3877787807814457e-16,
+    "mood__mood_2.0": 0.11430840075467018,
+    "mood__mood_4.0": -0.12218367816736164,
+    "mood__mood_5.0": -0.11016924374329355
+  },
+  "mood_counts": {
+    "1": 0,
+    "2": 5,
+    "3": 17,
+    "4": 22,
+    "5": 5
+  },
+  "completed_pairs": 49,
+  "input_start": "2026-09-01",
+  "input_end": "2026-10-19",
+  "evaluation_train_input_end": "2026-10-09",
+  "evaluation_target_start": "2026-10-11",
+  "evaluation_target_end": "2026-10-20",
+  "evaluation_training_pairs": 39,
+  "evaluation_held_out_pairs": 10,
+  "evaluation_scored_pairs": 10,
+  "dashboard_filters_used": false
+}
