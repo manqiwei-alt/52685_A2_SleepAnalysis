@@ -1,0 +1,29 @@
+Sleep diary | stored records
+
+Read stored database; no CSV imported. Database: 50 diary days.
+Mean time in bed: 7.68 hours.
+
+               nights  mean_time_in_bed_hours  mean_doomscroll_minutes  mean_caffeine_cups  mean_exercise_minutes  mean_mood
+quality_group                                                                                                               
+Poor                7                    6.56                    26.43                0.86                  42.14       2.43
+Neutral            16                    7.20                    45.62                1.75                  18.44       3.44
+Good               27                    8.25                    36.85                1.41                  26.67       3.93
+
+Calendar-week comparison:
+            nights first_record last_record  mean_time_in_bed_hours  mean_sleep_quality  mean_scrolling_minutes  mean_mood  mean_caffeine_cups  mean_exercise_minutes
+week_start                                                                                                                                                           
+2026-08-31       6   2026-09-01  2026-09-06                    7.36                3.33                   45.00       3.17                1.83                  25.83
+2026-09-07       7   2026-09-07  2026-09-13                    7.51                3.29                   44.29       3.29                1.43                  21.43
+2026-09-14       7   2026-09-14  2026-09-20                    7.94                4.00                   27.14       3.57                1.29                  29.29
+2026-09-21       7   2026-09-21  2026-09-27                    8.02                3.57                   37.14       3.71                1.43                  34.29
+2026-09-28       7   2026-09-28  2026-10-04                    6.96                3.14                   41.43       3.57                2.14                  24.29
+2026-10-05       7   2026-10-05  2026-10-11                    7.90                3.86                   25.71       3.86                0.29                  15.71
+2026-10-12       7   2026-10-12  2026-10-18                    8.13                3.86                   42.14       3.57                1.57                  33.57
+2026-10-19       2   2026-10-19  2026-10-20                    7.21                3.00                   57.50       4.00                2.00                  22.50
+
+Sleep quality: Poor=1-2, Neutral=3, Good=4-5.
+Mood on waking: 1 Very low, 2 Low, 3 Neutral, 4 Good, 5 Very good.
+Time in bed is derived from clock times; it is not measured sleep duration.
+Sleep and mood describe the morning of diary_date; habits describe that day before the next sleep.
+Times are local Australia/Sydney; elapsed duration accounts for daylight saving.
+These descriptive comparisons do not establish causation.

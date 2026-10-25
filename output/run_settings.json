@@ -1,0 +1,8 @@
+{
+  "mode": "stored",
+  "input_filename": null,
+  "label": "Sleep diary | stored records",
+  "input_rows": 0,
+  "stored_nights": 50,
+  "calendar_weeks": 8
+}
